@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @inicio.usuario %>
+</p>
+
+<p>
+  <strong>Contrasena:</strong>
+  <%= @inicio.contrasena %>
+</p>
+
+<%= link_to 'Edit', edit_inicio_path(@inicio) %> |
+<%= link_to 'Back', inicios_path %>
